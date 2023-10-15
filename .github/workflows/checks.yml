@@ -15,10 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: |
-          chmod +x setup.sh
-          ./setup.sh
-
       - uses: actions/setup-java@v3
         with:
           java-version: 17
