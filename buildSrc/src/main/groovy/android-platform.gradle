@@ -1,0 +1,9 @@
+plugins {
+    id("android-common")
+}
+
+android {
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
