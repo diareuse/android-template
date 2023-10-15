@@ -8,13 +8,18 @@ plugins {
     id "android-compose"
 }
 
+def calendar = Calendar.getInstance()
+def year = calendar.get(Calendar.YEAR)
+def month = calendar.get(Calendar.MONTH) + 1
+def dateVersion = "$year.$month"
+
 android {
     namespace "app.template"
 
     defaultConfig {
         applicationId "app.template"
         versionCode 1
-        versionName "1.0"
+        versionName dateVersion
     }
 }
 
