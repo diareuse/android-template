@@ -2,11 +2,11 @@ name: Deploy
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
-    paths:
-      - "**/src/main/**"
+  #push:
+  #  branches:
+  #    - master
+  #  paths:
+  #    - "**/src/main/**"
 
 jobs:
   build-aab:
