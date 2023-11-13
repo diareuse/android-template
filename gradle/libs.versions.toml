@@ -1,6 +1,6 @@
 [versions]
 android = "8.1.2"
-ktor = "2.3.5"
+ktor = "2.3.6"
 kotlin = "1.9.10"
 kotlinx-coroutines = "1.7.3"
 kotlinx-serialization = "1.6.0"
