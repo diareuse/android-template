@@ -19,7 +19,7 @@ androidx-hilt-compose = "1.1.0"
 androidx-hilt-work = "1.1.0"
 androidx-work = "2.8.1"
 androidx-paging = "3.2.1"
-androidx-room = "2.6.0"
+androidx-room = "2.6.1"
 google-ksp = "1.9.21-1.0.16"
 
 [libraries]
